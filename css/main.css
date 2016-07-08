@@ -1,10 +1,9 @@
 .full-width {
   max-width: 100% !important;
 }
-p {
+.row p {
   color: white;
-  font-size: 30px;
-  line-height: 1.5em;
+  font-size: 25px;
 }
 
 
@@ -37,6 +36,19 @@ p {
   margin: 30px auto;
   text-align: center;
 }
+.middle-title p {
+  font-size: 40px;
+  font-weight: 600;
+}
+.buttons {
+  text-align: center;
+}
+
+.inline {
+  display: inline-block;
+  vertical-align: top;
+}
+
 /*
   ============================================
   Bottom
@@ -46,7 +58,6 @@ p {
 .bottom {
   background: #676c7e;
   height: 100px;
-  margin-top: 500px;
   text-align: center;
   vertical-align: bottom;
 }
