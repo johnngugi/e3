@@ -14,12 +14,13 @@
 */
 
 .title {
-  background: #565A69;
-  height: 200px;
+  background: #2e3038;
+  height: 100px;
 }
 .title h1 {
+  color: #ffa600;
   text-align: center;
-  padding: 50px 0;
+  padding: 20px 0;
 }
 
 /*
@@ -28,6 +29,10 @@
   ============================================
 */
 
+#main {
+  margin: 0 auto;
+  padding-left: 80px;
+}
 .middle {
   padding-top: 50px;
   vertical-align: middle;
@@ -58,6 +63,7 @@
 .bottom {
   background: #676c7e;
   height: 100px;
+  margin-top: 310px;
   text-align: center;
   vertical-align: bottom;
 }
@@ -65,7 +71,8 @@
   border-left: 2px solid white;
   border-right: 2px solid white;
 }
-.bottom p {
+.bottom span {
+  color: white;
   padding-top: 30px;
   font-size: 30px;
 }
