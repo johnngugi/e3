@@ -48,10 +48,13 @@
 .buttons {
   text-align: center;
 }
-
 .inline {
   display: inline-block;
   vertical-align: top;
+}
+#link {
+  background: black;
+  border-radius: 50%;
 }
 
 /*
