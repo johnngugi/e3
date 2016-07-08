@@ -1,7 +1,60 @@
 .full-width {
   max-width: 100% !important;
 }
+p {
+  color: white;
+  font-size: 30px;
+  line-height: 1.5em;
+}
+
+
+/*
+  ============================================
+  Top
+  ============================================
+*/
+
 .title {
   background: #565A69;
   height: 200px;
+}
+.title h1 {
+  text-align: center;
+  padding: 50px 0;
+}
+
+/*
+  ============================================
+  Middle
+  ============================================
+*/
+
+.middle {
+  padding-top: 50px;
+  vertical-align: middle;
+}
+.middle-title {
+  margin: 30px auto;
+  text-align: center;
+}
+/*
+  ============================================
+  Bottom
+  ============================================
+*/
+
+.bottom {
+  background: #676c7e;
+  height: 100px;
+  margin-top: 500px;
+  text-align: center;
+  vertical-align: bottom;
+}
+.bottom-middle {
+  border-left: 2px solid white;
+  border-right: 2px solid white;
+}
+.bottom p {
+  padding-top: 30px;
+  font-size: 30px;
 }
