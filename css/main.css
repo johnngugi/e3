@@ -52,6 +52,9 @@
   padding-top: 50px;
   vertical-align: middle;
 }
+.middle img {
+  padding-left: 15%;
+}
 .middle-title {
   margin: 30px auto;
   text-align: center;
